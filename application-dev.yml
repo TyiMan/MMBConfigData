@@ -3,4 +3,4 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka-primary:8011/eureka/,http://eureka-secondary:8012/eureka/
   instance:
-    instanceId: ${spring.cloud.client.hostname}:${spring.cloud.client.port}:${spring.application.name}:${random.value}-dev
+    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${random.value}-dev
